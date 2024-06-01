@@ -125,7 +125,7 @@ const Main = () => {
                 <button
                   onClick={() => handleDelete(blog.id)}
                   className={`text-black text-2xl rounded-lg mr-2 ${
-                    user?.displayName === blog.username ? "text-black" : "text-[#00000070] cursor-not-allowed"
+                    user?.displayName === blog.username ? "text-black" : "text-[#00000060] cursor-not-allowed"
                   }`}
                   disabled={user?.displayName !== blog.username}
                 >
