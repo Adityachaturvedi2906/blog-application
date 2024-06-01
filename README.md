@@ -1,1 +1,1 @@
-# blog-application
+# Getting Started with Create React App
